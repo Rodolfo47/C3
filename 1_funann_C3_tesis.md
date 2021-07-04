@@ -30,6 +30,48 @@ source activate /home/rangeles/.conda/envs/funannotate
 cd C3/bin
 ```
 
+
+
+## 0. Data and tools
+
+### Data
+
+*Laccaria* and Psathyrellaceae genomes came from JGI and NCBI (Table 1 in the .pdf)
+
+
+
+### **Tools**
+
+​	Funannotate [Manual](https://funannotate.readthedocs.io/en/latest/#) 
+
+​	InterProScan [Manual](https://interproscan-docs.readthedocs.io/en/latest/) (already in the server)
+
+​	SignalP [Web server](http://www.cbs.dtu.dk/services/SignalP-4.1/) (already in the server)
+
+#### 		**Instaling**
+
+​	Funannotate (v 1.7.4)
+
+```sh
+#creatae conda environment
+conda activate
+conda create -n funannotate python=2.7 funannotate
+#start up conda env
+source activate /home/rangeles/.conda/envs/funannotate
+#check that all modules are installed
+funannotate check --show-versions
+#download/setup databases to a writable/readable location
+funannotate setup -d funannotate_db
+#set database path 
+echo "export FUNANNOTATE_DB=/space21/PGE/rangeles/bin/funannotate_db" > /home/rangeles/.conda/envs/funannotate/etc/conda/activate.d/funannotate.sh
+export FUNANNOTATE_DB=/space21/PGE/rangeles/bin/funannotate_db
+echo "unset FUNANNOTATE_DB" > /home/rangeles/.conda/envs/funannotate/etc/conda/deactivate.d/funannotate.sh
+#testing
+funannotate test -t all --cpus 16
+```
+
+
+
 ## 1. Cleaning
 
 ```shell
