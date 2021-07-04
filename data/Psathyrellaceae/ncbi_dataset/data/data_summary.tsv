@@ -1,0 +1,9 @@
+Organism Scientific Name	Organism Common Name	Organism Qualifier	Taxonomy id	Assembly Name	Assembly Accession	Source	Annotation	Level	Contig N50	Size	Submission Date	Gene Count	BioProject	BioSample
+Coprinopsis cinerea okayama7#130		strain: okayama7#130	240176	CC3	GCA_000182895.1	GenBank	From INSDC submitter	Contig	3468139	36150142	2010-06-16	13657	PRJNA1447	SAMN02953595
+Psathyrella aberdarensis		strain: IHI B618	2316362	ASM412641v1	GCA_004126415.1	GenBank	From INSDC submitter	Contig	57370	60609341	2019-02-01	14703	PRJNA516162	SAMN10782981
+Coprinopsis marcescibilis		strain: CBS 121175	230819	Copmar1	GCA_004369085.1	GenBank	From INSDC submitter	Scaffold	87079	38912666	2019-03-25	14853	PRJNA247837	SAMN02787011
+Coprinellus micaceus		strain: FP101781	71717	Copmic2	GCA_004369175.1	GenBank	From INSDC submitter	Contig	315761	77386123	2019-03-25	23865	PRJNA247835	SAMN02787017
+Coprinellus angulatus		strain: CBS 175.51	980116	LU_COA_1.0	GCA_013368325.1	GenBank	From INSDC submitter	Contig	754395	59300204	2020-06-23	15072	PRJNA496351	SAMN10240171
+Coprinellus angulatus		strain: CBS 144469	980116	Copang1	GCA_014188975.1	GenBank	From INSDC submitter	Contig	482059	93565539	2020-08-14	26477	PRJNA463278	SAMN09074940
+Coprinopsis strossmayeri			76940	ASM90015684v1	GCA_900156845.1	GenBank		Scaffold	167374	33316483	2017-01-26		PRJEB18786	SAMEA44050918
+Coprinopsis cinerea okayama7#130		strain: okayama7#130	240176	CC3	GCF_000182895.1	RefSeq	From INSDC submitter	Contig	3468139	36150142	2010-06-16	13657	PRJNA1447	SAMN02953595
