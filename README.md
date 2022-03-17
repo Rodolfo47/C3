@@ -2,7 +2,7 @@
 
 This is the repository of the paper:
 
-*Ángeles-Argáiz et al.* in prep: **The CAZymes and effector peptides of the accessory genome of *Laccaria trichodermophora* explain its differential symbiotic performance.** For *Microbial Genomics* (IF = 5.5) 
+*Ángeles-Argáiz et al.* in prep: **The CAZymes and effector peptides of the accessory genome of *Laccaria trichodermophora* explain its differential symbiotic performance.** For *Microbial Genomics* 
 
 ### **Aims and scope:**
 
